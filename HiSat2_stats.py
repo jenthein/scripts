@@ -26,7 +26,7 @@ alignedover1 = []
 overall_alignment_rate = []
 tmp = ""
 
-mapper_file_names = glob.glob( mapper_out_path + "*-out_log.txt" ) + glob.glob( mapper_out_path + "*/*-out_log.txt" )
+mapper_file_names = glob.glob(mapper_out_path + "*-out_log.txt") + glob.glob(mapper_out_path + "*/*-out_log.txt")
 
 for name in mapper_file_names:
 	with open(name, "r") as mfn:
