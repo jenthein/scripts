@@ -8,7 +8,7 @@ import datetime as datetime
 ##################################################################
 # Script to summarise Featurecounts reports
 # Data will be saved
-# By Jens Theine (jens.theine@uni-bielefeld.de), 30.10.2019
+# By Jens Theine (jens.theine at uni-bielefeld .de), 30.10.2019
 ##################################################################
 
 
@@ -23,7 +23,7 @@ fc_unassigned_ambiguity_list = []
 fc_file_names = []
 proc = 0
 
-fc_file_names = glob.glob( counter_out_path + "*cat.sorted.bam.gz.countTable.txt.summary" ) + glob.glob( counter_out_path + "*/*cat.sorted.bam.gz.countTable.txt.summary" )
+fc_file_names = glob.glob(counter_out_path + "*cat.sorted.bam.gz.countTable.txt.summary") + glob.glob(counter_out_path + "*/*cat.sorted.bam.gz.countTable.txt.summary")
 
 for name in fc_file_names:
 	with open(name, "r") as fc:
