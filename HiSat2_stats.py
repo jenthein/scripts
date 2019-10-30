@@ -8,7 +8,7 @@ import datetime as datetime
 ##################################################################
 # Script to summarise HiSat2 reports
 # Data will be saved
-# By Jens Theine (jens.theine@uni-bielefeld.de), 30.10.2019
+# By Jens Theine (jens.theine at uni-bielefeld .de), 30.10.2019
 ##################################################################
 
 
