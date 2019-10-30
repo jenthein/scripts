@@ -10,7 +10,7 @@ from scipy.stats import pearsonr
 # Script to - pearson - correlate expression profiles of two genotypes along two years
 # Data will be saved (csv)
 # from 4 sourcefiles (2 years, 2 genotypes; avg. triplicates)
-# By Jens Theine (jens.theine@uni-bielefeld.de), 21.01.2019
+# By Jens Theine (jens.theine at uni-bielefeld .de), 30.10.2019
 ##################################################################
 
 gois = []
