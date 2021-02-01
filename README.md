@@ -1,5 +1,6 @@
 # scripts:
 
+
 # renametigs.py
 Script to renumber all contigs in an assembly file (identified by ">"-character stating a new line).
 
